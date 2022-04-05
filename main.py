@@ -71,7 +71,7 @@ window.title("Pomodore Timer")
 window.config(padx=100,pady=50,bg=YELLOW)
 
 
-canvas=Canvas(width=200,height=224,bg="YELLOW",highlightthickness=0)
+canvas=Canvas(width=200,height=224,bg=YELLOW,highlightthickness=0)
 
 
 tom_image=PhotoImage(file="tomato.png")
@@ -91,6 +91,11 @@ button_reset.grid(column=2,row=2)
 
 label_check=Label(bg=YELLOW,fg=GREEN,font=("Consolas",10,'bold'))
 label_check.grid(column=1,row=3)
+
+label_timer=Label(text="PalaVan Widgets",fg="#4D96FF",bg=YELLOW,font=("Gabriola",12,'bold'),highlightthickness=0)
+label_timer.grid(column=1,row=4)
+
+
 
 
 
